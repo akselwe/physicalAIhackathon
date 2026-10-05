@@ -1,7 +1,7 @@
 import { loadFont as loadSans } from "@remotion/google-fonts/SchibstedGrotesk";
 import { loadFont as loadMono } from "@remotion/google-fonts/FragmentMono";
 
-// Blue Pencil, dark theme (from sales-assistant/design/tokens.json), plus a few cinematic extras.
+// Dark cinematic palette. Change to fit the video.
 export const C = {
   void: "#07080a", // deepest background for the 3D stage
   ground: "#111315",
@@ -19,7 +19,6 @@ export const C = {
   onMark: "#18160c",
   danger: "#f47c70",
   dangerSoft: "#3e1f1b",
-  oak: "#c9a27a",
 } as const;
 
 export const { fontFamily: SANS } = loadSans("normal", {
@@ -31,7 +30,3 @@ export const { fontFamily: MONO } = loadMono("normal", {
   weights: ["400"],
   subsets: ["latin"],
 });
-
-// No-break spaces for money, as the design system requires: "1 750 kr".
-export const kr = (n: number) =>
-  `${n.toLocaleString("en-US").replace(/,/g, "\u00a0")}\u00a0kr`;

@@ -1,7 +1,7 @@
 # physicalAIhackathon
 
 Video for the Physical AI hackathon. Built with Remotion, React Three Fiber and ElevenLabs.
-Started from the `selger-video` setup: the same skills, scripts and building blocks, without the Selger content.
+Remotion video setup with ElevenLabs voice, music and sound effects.
 
 ## Commands
 
@@ -21,6 +21,3 @@ npx remotion render Main out/video.mp4
 - `src/three/`, `src/ui/`: 3D stage and glow, colour grade and animation helpers.
 - `scripts/`: ElevenLabs voice, music and SFX generation, and narrator swap. Needs `ELEVENLABS_API_KEY` in `.env`.
 - `.agents/skills` (symlinked from `.claude/skills`): Remotion and ElevenLabs skills.
-
-`src/theme.ts` still has the Selger palette; change it to fit this project.
-`scripts/generate-music-sfx.mts` still holds the Selger music plan and SFX prompts; rewrite them for this video.
