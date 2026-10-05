@@ -39,7 +39,7 @@ export const SFX_AT: { id: string; at: number; volume?: number }[] = [
   { id: "tick", at: 11.2, volume: 0.6 },
   { id: "swish", at: 12.1, volume: 0.6 },
   { id: "scan", at: 12.9, volume: 0.6 },
-  { id: "alert", at: 16.6, volume: 0.6 },
+  { id: "alert", at: 17.8, volume: 0.6 },
   { id: "swish", at: 18.5, volume: 0.6 },
   { id: "knock", at: 19.5, volume: 0.9 },
   { id: "knock", at: 20.35, volume: 0.9 },

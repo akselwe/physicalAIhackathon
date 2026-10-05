@@ -31,9 +31,8 @@ export const Rover: React.FC<Props> = ({
   laser = true,
 }) => {
   const wheelR = 0.13;
-  const mastTotal = 1.5 * mast; // metres above the deck
-  const sections = [0.34, 0.3, 0.26, 0.22];
-  let acc = 0;
+  const mastTotal = 1.1 * mast; // extra reach in metres above the retracted mast
+  const sections = [0, 1, 2, 3];
   return (
     <group position={position} rotation={[0, rotationY, 0]} scale={scale}>
       {/* chassis */}
@@ -124,20 +123,18 @@ export const Rover: React.FC<Props> = ({
           <cylinderGeometry args={[0.06, 0.07, 0.05, 28]} />
           <meshStandardMaterial color={MID} roughness={0.4} metalness={0.5} />
         </mesh>
-        {sections.map((len, i) => {
-          const start = acc;
-          acc += len;
-          const frac = Math.min(1, Math.max(0, (mastTotal - start) / len));
-          const h = Math.max(0.0001, len * Math.max(frac, i === 0 ? 0.25 : 0));
-          const y = i === 0 ? 0.025 + h / 2 : 0.025 + Math.min(mastTotal, start) + (h > 0.001 ? h / 2 : 0);
-          return frac > 0 || i === 0 ? (
-            <mesh key={i} position={[0, y, 0]}>
-              <cylinderGeometry args={[0.04 - i * 0.007, 0.04 - i * 0.007, h, 20]} />
+        {sections.map((_, i) => {
+          // Nested sections: section i slides up by mast * i / 4 and overlaps the one below.
+          const bottom = 0.025 + (mastTotal * i) / sections.length;
+          const len = 0.4;
+          return (
+            <mesh key={i} position={[0, bottom + len / 2, 0]}>
+              <cylinderGeometry args={[0.04 - i * 0.007, 0.04 - i * 0.007, len, 20]} />
               <meshStandardMaterial color={i % 2 ? "#aeb4be" : "#c7ccd4"} roughness={0.25} metalness={0.8} />
             </mesh>
-          ) : null;
+          );
         })}
-        <group position={[0, 0.05 + 0.25 + mastTotal * 0.98, 0]}>
+        <group position={[0, 0.025 + (mastTotal * (sections.length - 1)) / sections.length + 0.4 + 0.05, 0]}>
           <RoundedBox args={[0.16, 0.1, 0.1]} radius={0.03} smoothness={4}>
             <meshStandardMaterial color={BODY} roughness={0.3} metalness={0.2} />
           </RoundedBox>
