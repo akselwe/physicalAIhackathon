@@ -1,0 +1,67 @@
+{
+  "id": "v6-talk",
+  "text": "Then just talk to it. Open the kitchen to the living room.",
+  "duration": 3.84,
+  "words": [
+    {
+      "text": "Then",
+      "start": 0,
+      "end": 0.4
+    },
+    {
+      "text": "just",
+      "start": 0.64,
+      "end": 0.8
+    },
+    {
+      "text": "talk",
+      "start": 0.92,
+      "end": 1.04
+    },
+    {
+      "text": "to",
+      "start": 1.08,
+      "end": 1.12
+    },
+    {
+      "text": "it.",
+      "start": 1.2,
+      "end": 1.44
+    },
+    {
+      "text": "Open",
+      "start": 1.92,
+      "end": 2.24
+    },
+    {
+      "text": "the",
+      "start": 2.293,
+      "end": 2.347
+    },
+    {
+      "text": "kitchen",
+      "start": 2.4,
+      "end": 2.72
+    },
+    {
+      "text": "to",
+      "start": 2.8,
+      "end": 2.88
+    },
+    {
+      "text": "the",
+      "start": 2.92,
+      "end": 2.96
+    },
+    {
+      "text": "living",
+      "start": 3.04,
+      "end": 3.28
+    },
+    {
+      "text": "room.",
+      "start": 3.4,
+      "end": 3.84
+    }
+  ]
+}

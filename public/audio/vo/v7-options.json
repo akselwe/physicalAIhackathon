@@ -1,0 +1,62 @@
+{
+  "id": "v7-options",
+  "text": "Three options. Light, mid, full. Each with before, after, and cost.",
+  "duration": 6.4,
+  "words": [
+    {
+      "text": "Three",
+      "start": 0,
+      "end": 0.24
+    },
+    {
+      "text": "options.",
+      "start": 0.32,
+      "end": 1
+    },
+    {
+      "text": "Light,",
+      "start": 1.2,
+      "end": 1.8
+    },
+    {
+      "text": "mid,",
+      "start": 2,
+      "end": 2.64
+    },
+    {
+      "text": "full.",
+      "start": 2.72,
+      "end": 3.32
+    },
+    {
+      "text": "Each",
+      "start": 3.6,
+      "end": 3.84
+    },
+    {
+      "text": "with",
+      "start": 3.92,
+      "end": 4
+    },
+    {
+      "text": "before,",
+      "start": 4.08,
+      "end": 4.88
+    },
+    {
+      "text": "after,",
+      "start": 4.96,
+      "end": 5.52
+    },
+    {
+      "text": "and",
+      "start": 5.56,
+      "end": 5.6
+    },
+    {
+      "text": "cost.",
+      "start": 5.68,
+      "end": 6.4
+    }
+  ]
+}

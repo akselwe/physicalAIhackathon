@@ -19,6 +19,12 @@ export const C = {
   onMark: "#18160c",
   danger: "#f47c70",
   dangerSoft: "#3e1f1b",
+  // Signal colours: each sensor has its own.
+  laser: "#ff4d4d",
+  lidar: "#52e0ff",
+  heat: "#ff9a3c",
+  ok: "#46e6a4",
+  warn: "#ffc247",
 } as const;
 
 export const { fontFamily: SANS } = loadSans("normal", {

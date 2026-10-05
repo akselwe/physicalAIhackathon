@@ -1,0 +1,32 @@
+{
+  "id": "v5-knock",
+  "text": "Closed door? It knocks. Politely.",
+  "duration": 3.2,
+  "words": [
+    {
+      "text": "Closed",
+      "start": 0,
+      "end": 0.4
+    },
+    {
+      "text": "door?",
+      "start": 0.56,
+      "end": 0.8
+    },
+    {
+      "text": "It",
+      "start": 1.2,
+      "end": 1.36
+    },
+    {
+      "text": "knocks.",
+      "start": 1.44,
+      "end": 2.16
+    },
+    {
+      "text": "Politely.",
+      "start": 2.4,
+      "end": 3.2
+    }
+  ]
+}

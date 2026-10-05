@@ -1,0 +1,52 @@
+{
+  "id": "v3-laser",
+  "text": "Laser and lidar measure every wall. To the millimeter.",
+  "duration": 4.24,
+  "words": [
+    {
+      "text": "Laser",
+      "start": 0,
+      "end": 0.48
+    },
+    {
+      "text": "and",
+      "start": 0.56,
+      "end": 0.64
+    },
+    {
+      "text": "lidar",
+      "start": 0.72,
+      "end": 1.2
+    },
+    {
+      "text": "measure",
+      "start": 1.28,
+      "end": 1.68
+    },
+    {
+      "text": "every",
+      "start": 1.76,
+      "end": 2.08
+    },
+    {
+      "text": "wall.",
+      "start": 2.16,
+      "end": 2.88
+    },
+    {
+      "text": "To",
+      "start": 2.96,
+      "end": 3.04
+    },
+    {
+      "text": "the",
+      "start": 3.08,
+      "end": 3.12
+    },
+    {
+      "text": "millimeter.",
+      "start": 3.28,
+      "end": 4.24
+    }
+  ]
+}

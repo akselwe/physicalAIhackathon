@@ -1,0 +1,47 @@
+{
+  "id": "v8-close",
+  "text": "Stud. Know your house before the contractor does.",
+  "duration": 3.76,
+  "words": [
+    {
+      "text": "Stud.",
+      "start": 0,
+      "end": 0.84
+    },
+    {
+      "text": "Know",
+      "start": 1.12,
+      "end": 1.28
+    },
+    {
+      "text": "your",
+      "start": 1.36,
+      "end": 1.52
+    },
+    {
+      "text": "house",
+      "start": 1.6,
+      "end": 1.92
+    },
+    {
+      "text": "before",
+      "start": 2,
+      "end": 2.32
+    },
+    {
+      "text": "the",
+      "start": 2.36,
+      "end": 2.4
+    },
+    {
+      "text": "contractor",
+      "start": 2.48,
+      "end": 3.04
+    },
+    {
+      "text": "does.",
+      "start": 3.12,
+      "end": 3.76
+    }
+  ]
+}
